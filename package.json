@@ -1,0 +1,23 @@
+{
+  "name": "access-control-broker",
+  "version": "0.1.0",
+  "description": "",
+  "main": "server.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "author": "Mohammad Moradi <MohammadMRD@hotmail.com>",
+  "homepage": "https://github.com/Universal-Access-Control/mqtt-broker#readme",
+  "repository": "git+https://github.com/Universal-Access-Control/mqtt-broker.git",
+  "bugs": {
+    "url": "https://github.com/Universal-Access-Control/mqtt-broker/issues"
+  },
+  "dependencies": {
+    "aedes": "^0.41.0",
+    "aedes-persistence-mongodb": "^8.0.1",
+    "await-to-js": "^2.1.1",
+    "dotenv-defaults": "^1.1.1",
+    "mongoose": "^5.9.9"
+  }
+}
