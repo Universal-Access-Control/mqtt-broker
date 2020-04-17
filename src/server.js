@@ -8,10 +8,10 @@ const port = process.env.MQTT_PORT;
 
 (async () => {
   const dbOptions = { useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true };
-  const dbBaseUrl = process.env.MONGODB_URL;
-  const dbName = process.env.MONGODB_DB_NAME;
+  const dbUrl = process.env.MONGODB_URL;
 
-  const [err] = await to(mongoose.connect(`${dbBaseUrl}/${dbName}`, dbOptions));
+  console.log('dbUrl :', dbUrl);
+  const [err] = await to(mongoose.connect(dbUrl, dbOptions));
   if (err) {
     console.log('Database connection error: ', err);
     process.exit(1);
