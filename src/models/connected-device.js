@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const activeDeviceSchema = mongoose.Schema({
+const connectedDeviceSchema = mongoose.Schema({
   deviceId: {
     type: String,
     required: true,
@@ -13,4 +13,4 @@ const activeDeviceSchema = mongoose.Schema({
   }
 });
 
-module.exports = ActiveDeviceModel = mongoose.model('ActiveDevice', activeDeviceSchema);
+module.exports = ActiveDeviceModel = mongoose.model('ConnectedDevice', connectedDeviceSchema);
