@@ -14,10 +14,10 @@
     "url": "https://github.com/Universal-Access-Control/mqtt-broker/issues"
   },
   "dependencies": {
-    "aedes": "^0.41.0",
-    "aedes-persistence-mongodb": "^8.0.1",
+    "aedes": "^0.42.5",
+    "aedes-persistence-mongodb": "^8.1.1",
     "await-to-js": "^2.1.1",
-    "dotenv-defaults": "^1.1.1",
-    "mongoose": "^5.9.9"
+    "dotenv-defaults": "^2.0.1",
+    "mongoose": "^5.10.3"
   }
 }
