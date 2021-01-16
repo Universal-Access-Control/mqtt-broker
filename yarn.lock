@@ -42,35 +42,25 @@ aedes-persistence@^8.1.1:
     from2 "^2.3.0"
     qlobber "^5.0.0"
 
-aedes-protocol-decoder@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/aedes-protocol-decoder/-/aedes-protocol-decoder-1.0.0.tgz#dfc7d6f11bdf01de95820b855ac6655db96ea75a"
-  integrity sha512-nzWwSetptIFFk0gXtXBvmBPUD6HwuZKeVm/8mRJqEKfBJ4ZnvgpcO5CFwEDzTi884jOWTIBaJAWll3QLYsOCFQ==
-  dependencies:
-    forwarded "^0.1.2"
-    proxy-protocol-js "^4.0.3"
-
-aedes@^0.42.5:
-  version "0.42.5"
-  resolved "https://registry.yarnpkg.com/aedes/-/aedes-0.42.5.tgz#847e1277ec2ea5810c7585b8558a72d74f3f51cc"
-  integrity sha512-+4el6+e1rwR8U7hebjllezxdIu2BeKLG5FPV5se4uamKkAZQIkadOQ2qEa/kLQEmDtO2tAmQLqdeJh0pNRNwmA==
+aedes@^0.44.1:
+  version "0.44.1"
+  resolved "https://registry.yarnpkg.com/aedes/-/aedes-0.44.1.tgz#128b51e398e8fc05a9612fdd8e7b22503442d292"
+  integrity sha512-GyDzCPR/UJNpkrweyHQC8Vsjqu6b9H7SgKHox8/sUSqFwKIhSIYuf5f8hEL+rIec9ii93S7y7FEskjTp/qpYnA==
   dependencies:
     aedes-packet "^2.3.1"
     aedes-persistence "^8.1.1"
-    aedes-protocol-decoder "^1.0.0"
     bulk-write-stream "^2.0.1"
     end-of-stream "^1.4.4"
     fastfall "^1.5.1"
-    fastparallel "^2.3.0"
+    fastparallel "^2.4.0"
     fastseries "^2.0.0"
-    mqemitter "^4.2.0"
-    mqtt-packet "^6.3.2"
-    proxy-protocol-js "^4.0.4"
+    hyperid "^2.0.5"
+    mqemitter "^4.4.0"
+    mqtt-packet "^6.7.0"
     readable-stream "^3.6.0"
     retimer "^2.0.0"
     reusify "^1.0.4"
-    shortid "^2.2.15"
-    uuid "^8.0.0"
+    uuid "^8.3.1"
 
 await-to-js@^2.1.1:
   version "2.1.1"
@@ -180,7 +170,7 @@ fastfall@^1.5.1:
   dependencies:
     reusify "^1.0.0"
 
-fastparallel@^2.3.0:
+fastparallel@^2.3.0, fastparallel@^2.4.0:
   version "2.4.0"
   resolved "https://registry.yarnpkg.com/fastparallel/-/fastparallel-2.4.0.tgz#65fbec1a5e5902494be772cf5765cbaaece08688"
   integrity sha512-sacwQ7wwKlQXsa7TN24UvMBLZNLmVcPhmxccC9riFqb3N+fSczJL8eWdnZodZ/KijGVgNBBfvF/NeXER08uXnQ==
@@ -193,11 +183,6 @@ fastseries@^2.0.0:
   resolved "https://registry.yarnpkg.com/fastseries/-/fastseries-2.0.0.tgz#d43eb975f6175dd83457d1d68fbd30f936ec7f2b"
   integrity sha512-XBU9RXeoYc2/VnvMhplAxEmZLfIk7cvTBu+xwoBuTI8pL19E03cmca17QQycKIdxgwCeFA/a4u27gv1h3ya5LQ==
 
-forwarded@^0.1.2:
-  version "0.1.2"
-  resolved "https://registry.yarnpkg.com/forwarded/-/forwarded-0.1.2.tgz#98c23dab1175657b8c0573e8ceccd91b0ff18c84"
-  integrity sha1-mMI9qxF1ZXuMBXPozszZGw/xjIQ=
-
 from2@^2.3.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/from2/-/from2-2.3.0.tgz#8bfb5502bde4a4d36cfdeea007fcca21d7e382af"
@@ -205,6 +190,14 @@ from2@^2.3.0:
   dependencies:
     inherits "^2.0.1"
     readable-stream "^2.0.0"
+
+hyperid@^2.0.5:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/hyperid/-/hyperid-2.1.0.tgz#2f5ed7537e87e8fddd344710a610be501b3d2da6"
+  integrity sha512-cSakhxbUsaIuqjfvvcUuvl/Fl342J65xgLLYrYxSSr9qmJ/EJK+S8crS6mIlQd/a7i+Pe4D0MgSrtZPLze+aCw==
+  dependencies:
+    uuid "^3.4.0"
+    uuid-parse "^1.1.0"
 
 ieee754@^1.1.4:
   version "1.1.13"
@@ -284,7 +277,7 @@ mpath@0.7.0:
   resolved "https://registry.yarnpkg.com/mpath/-/mpath-0.7.0.tgz#20e8102e276b71709d6e07e9f8d4d0f641afbfb8"
   integrity sha512-Aiq04hILxhz1L+f7sjGyn7IxYzWm1zLNNXcfhDtx04kZ2Gk7uvFdgZ8ts1cWa/6d0TQmag2yR8zSGZUmp0tFNg==
 
-mqemitter@^4.2.0:
+mqemitter@^4.4.0:
   version "4.4.0"
   resolved "https://registry.yarnpkg.com/mqemitter/-/mqemitter-4.4.0.tgz#4795945124989ec7dbd635e9c8f2aba0c25b1661"
   integrity sha512-XWoue2+i4wLWxtPCRdZk3bNJc2+FhomyA3QzxBM4+4Iui/+iGLeubeShtKa8MwZ0HXVLJqWTMznkCsYs7xjiQQ==
@@ -292,10 +285,10 @@ mqemitter@^4.2.0:
     fastparallel "^2.3.0"
     qlobber "^5.0.0"
 
-mqtt-packet@^6.3.0, mqtt-packet@^6.3.2:
-  version "6.6.0"
-  resolved "https://registry.yarnpkg.com/mqtt-packet/-/mqtt-packet-6.6.0.tgz#30126b6865992caaf223baae23c89e4061ad2e45"
-  integrity sha512-LvghnKMFC70hKWMVykmhJarlO5e7lT3t9s9A2qPCUx+lazL3Mq55U+eCV0eLi7/nRRQYvEUWo/2tTo89EjnCJQ==
+mqtt-packet@^6.3.0, mqtt-packet@^6.7.0:
+  version "6.7.0"
+  resolved "https://registry.yarnpkg.com/mqtt-packet/-/mqtt-packet-6.7.0.tgz#0098f7f5d02f34b8dce35507befd6394e1109575"
+  integrity sha512-GzgeeCirQpB59FyhHvf8BLiIYgxctPSxuSyaF2vWnkt7paX7jtuQ8Gpl+DkHCxZmYuv7GQE6zcUAegpafd0MqQ==
   dependencies:
     bl "^4.0.2"
     debug "^4.1.1"
@@ -329,11 +322,6 @@ multistream@^4.0.0:
   dependencies:
     readable-stream "^3.4.0"
 
-nanoid@^2.1.0:
-  version "2.1.11"
-  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-2.1.11.tgz#ec24b8a758d591561531b4176a01e3ab4f0f0280"
-  integrity sha512-s/snB+WGm6uwi0WjsZdaVcuf3KJXlfGl2LcxgwkEwJF0D/BWzVWAZW/XY4bFaiR7s0Jk3FPvlnepg1H1b1UwlA==
-
 native-url@^0.3.1:
   version "0.3.4"
   resolved "https://registry.yarnpkg.com/native-url/-/native-url-0.3.4.tgz#29c943172aed86c63cee62c8c04db7f5756661f8"
@@ -352,11 +340,6 @@ process-nextick-args@^2.0.1, process-nextick-args@~2.0.0:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/process-nextick-args/-/process-nextick-args-2.0.1.tgz#7820d9b16120cc55ca9ae7792680ae7dba6d7fe2"
   integrity sha512-3ouUOpQhtgrbOa17J7+uxOTpITYWaGP7/AhoR3+A+/1e9skrzelGi/dXzEYyvbxubEF6Wn2ypscTKiKJFFn1ag==
-
-proxy-protocol-js@^4.0.3, proxy-protocol-js@^4.0.4:
-  version "4.0.5"
-  resolved "https://registry.yarnpkg.com/proxy-protocol-js/-/proxy-protocol-js-4.0.5.tgz#e9793e17f8b31a858f958c117640ff225b8a0eb9"
-  integrity sha512-53BHGoSSquDJg7fyDrMKWa85jfF34LPKAeRSij+Eiktlh2YE4rAk5U9uba3mGRswE/grDiAi2mZWknbzbXiB9w==
 
 pump@^3.0.0:
   version "3.0.0"
@@ -448,13 +431,6 @@ semver@^5.1.0:
   resolved "https://registry.yarnpkg.com/semver/-/semver-5.7.1.tgz#a954f931aeba508d307bbf069eff0c01c96116f7"
   integrity sha512-sauaDf/PZdVgrLTNYHRtpXa1iRiKcaebiKQ1BJdpQlWH2lCvexQdX55snPFyK7QzpudqbCI0qXFfOasHdyNDGQ==
 
-shortid@^2.2.15:
-  version "2.2.15"
-  resolved "https://registry.yarnpkg.com/shortid/-/shortid-2.2.15.tgz#2b902eaa93a69b11120373cd42a1f1fe4437c122"
-  integrity sha512-5EaCy2mx2Jgc/Fdn9uuDuNIIfWBpzY4XIlhoqtXF6qsf+/+SGZ+FxDdX/ZsMZiWupIWNqAEmiNY4RC+LSmCeOw==
-  dependencies:
-    nanoid "^2.1.0"
-
 sift@7.0.1:
   version "7.0.1"
   resolved "https://registry.yarnpkg.com/sift/-/sift-7.0.1.tgz#47d62c50b159d316f1372f8b53f9c10cd21a4b08"
@@ -498,10 +474,20 @@ util-deprecate@^1.0.1, util-deprecate@~1.0.1:
   resolved "https://registry.yarnpkg.com/util-deprecate/-/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
   integrity sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8=
 
-uuid@^8.0.0:
-  version "8.3.0"
-  resolved "https://registry.yarnpkg.com/uuid/-/uuid-8.3.0.tgz#ab738085ca22dc9a8c92725e459b1d507df5d6ea"
-  integrity sha512-fX6Z5o4m6XsXBdli9g7DtWgAx+osMsRRZFKma1mIUsLCz6vRvv+pz5VNbyu9UEDzpMWulZfvpgb/cmDXVulYFQ==
+uuid-parse@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/uuid-parse/-/uuid-parse-1.1.0.tgz#7061c5a1384ae0e1f943c538094597e1b5f3a65b"
+  integrity sha512-OdmXxA8rDsQ7YpNVbKSJkNzTw2I+S5WsbMDnCtIWSQaosNAcWtFuI/YK1TjzUI6nbkgiqEyh8gWngfcv8Asd9A==
+
+uuid@^3.4.0:
+  version "3.4.0"
+  resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.4.0.tgz#b23e4358afa8a202fe7a100af1f5f883f02007ee"
+  integrity sha512-HjSDRw6gZE5JMggctHBcjVak08+KEVhSIiDzFnT9S9aegmp85S/bReBVTb4QTFaRNptJ9kuYaNhnbNEOkbKb/A==
+
+uuid@^8.3.1:
+  version "8.3.2"
+  resolved "https://registry.yarnpkg.com/uuid/-/uuid-8.3.2.tgz#80d5b5ced271bb9af6c445f21a1a04c606cefbe2"
+  integrity sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==
 
 wrappy@1:
   version "1.0.2"
