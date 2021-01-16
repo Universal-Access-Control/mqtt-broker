@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "aedes": "^0.42.5",
-    "aedes-persistence-mongodb": "^8.1.1",
+    "aedes-persistence-mongodb": "^8.1.2",
     "await-to-js": "^2.1.1",
     "dotenv-defaults": "^2.0.1",
     "mongoose": "^5.10.3"

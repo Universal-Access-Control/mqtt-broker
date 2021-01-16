@@ -19,10 +19,10 @@ aedes-packet@^2.3.1:
   dependencies:
     mqtt-packet "^6.3.0"
 
-aedes-persistence-mongodb@^8.1.1:
-  version "8.1.1"
-  resolved "https://registry.yarnpkg.com/aedes-persistence-mongodb/-/aedes-persistence-mongodb-8.1.1.tgz#7edaeaaf11064c9f60ea47edd92108e388aed168"
-  integrity sha512-V9r/0hQ+h/ZFfy2DOmhY0P2zmdfVM0GAxY+hbcCHFz82r3cccK3mJ1ukGHjEMF1ZHSU2sc5XZGzHGdpjvJ/IdQ==
+aedes-persistence-mongodb@^8.1.2:
+  version "8.1.2"
+  resolved "https://registry.yarnpkg.com/aedes-persistence-mongodb/-/aedes-persistence-mongodb-8.1.2.tgz#67e367c5bc68eb6520ac273ae3d05c81b7b3467a"
+  integrity sha512-4AeNoS2QU5sWFymx+FTbtpJIJJAALWAnwGRvL6yMo/PXKNtbbPsOT95j0shdS/cYKPShtQVgPwaor0M2TOytUA==
   dependencies:
     aedes-cached-persistence "^8.1.0"
     escape-string-regexp "^4.0.0"
